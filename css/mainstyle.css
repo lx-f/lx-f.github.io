@@ -1,0 +1,41 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+p {
+	font-family: helvetica, sans-serif;
+	margin:0 0 1em 0;
+	padding:0;
+}
+	
+.header {
+    background-color: #eee;
+
+    border: 1px black solid;
+    border-collapse: collapse;
+    border-width: 1px 0;
+    
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 600;
+    
+    margin-top: 12.5px;
+}
+
+/* This idea is based on http://catb.org/~esr/sitestyle.css which I think is based on
+ * bluerobot's idea. */
+.main-links {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	width: 75px;
+	padding: 0.5em;
+	background-color: #eee;
+	border: 1px dashed #999;
+}
+
+.content p{
+    margin-top: 50px;
+    margin-left: 175px;
+}
