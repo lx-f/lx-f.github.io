@@ -8,6 +8,10 @@ p {
 	margin:0 0 1em 0;
 	padding:0;
 }
+
+a {
+    text-decoration: none;
+}
 	
 .header {
     background-color: #eee;
@@ -38,4 +42,9 @@ p {
 .content p{
     margin-top: 50px;
     margin-left: 175px;
+}
+
+.content table {
+    margin-top: 50px;
+    margin-left: 125px;
 }
