@@ -3,20 +3,32 @@ body {
     padding: 0%;
 }
 
-p {
-	font-family: helvetica, sans-serif;
-	margin:0 0 1em 0;
-	padding:0;
-}
-
 a {
     text-decoration: none;
 }
 
+p { font-family: helvetica, sans-serif; }
+
 blockquote {
     background-color: #eee;
 
-    border: 3px black solid;    
+    border: 3px black solid;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+blockquote p{
+    margin: 0 0 1em 0;
+    
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    position: center;
+    
+    margin-top: 100px;
 }
 
 .header {
@@ -45,12 +57,12 @@ blockquote {
 	border: 1px dashed #999;
 }
 
-.content p{
-    margin-top: 50px;
-    margin-left: 175px;
+.welcome {
+	margin-top: 50px;
+	margin-left: 175px;
 }
 
-.content table {
-    margin-top: 50px;
-    margin-left: 125px;
+.content {
+    margin-top: -75px;
+	margin-left: 50px;
 }
